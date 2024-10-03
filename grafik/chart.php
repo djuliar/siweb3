@@ -9,9 +9,9 @@
 <body>
         <canvas id="bentukChart" style="height: 50vh; max-width: 100%;"></canvas>
     
-    <script src="package/jquery/jquery.min.js"></script>
-    <script src="package/chart.js/Chart.min.js"></script>
-    <!-- <script src="package/dist/chart.js"></script> -->
+    <!-- <script src="package/jquery/jquery.min.js"></script> -->
+    <!-- <script src="package/chart.js/Chart.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <script>
 // BentukChart
@@ -73,11 +73,19 @@ var bentukChartOptions = {
 	// },
 }
 
-var bentukChart = new Chart('bentukChart', {
-	type: 'doughnut', 
-	data: bentukChartData,
-	options: bentukChartOptions
-})
+// var bentukChart = new Chart('bentukChart', {
+// 	type: 'bar', 
+// 	data: bentukChartData,
+// 	options: bentukChartOptions
+// })
+
+const ctx = document.getElementById('bentukChart');
+
+new Chart(ctx, {
+type: 'pie', 
+data: bentukChartData,
+options: bentukChartOptions
+});
 </script>
 
 </body>
