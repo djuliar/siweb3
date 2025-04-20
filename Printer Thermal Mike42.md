@@ -137,5 +137,3 @@ Jika printer terhubung ke client (misalnya kasir), kamu tidak bisa mencetak lang
 | Keterbatasan | Hanya bekerja jika printer terhubung ke server |
 
 ---
-
-Kalau kamu mau, aku juga bisa bantuin bikin **modul ajar dan proyek mini** untuk topik ini, biar bisa langsung dipakai buat ngajar atau latihan. Mau?
