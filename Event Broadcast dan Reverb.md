@@ -141,7 +141,3 @@ window.Echo.channel('chat')
 
 
 Dengan konfigurasi ini, setiap pesan yang disiarkan ke channel `chat` akan diterima dan ditampilkan di konsol browser.
-
-### Kesimpulan
-
-Dengan mengikuti langkah-langkah di atas, Anda dapat mengimplementasikan Laravel Broadcasting menggunakan Reverb untuk menambahkan fitur komunikasi real-time ke dalam aplikasi Anda. Reverb menawarkan integrasi yang mulus dengan ekosistem Laravel, performa tinggi, dan skalabilitas yang mudah, menjadikannya pilihan 
